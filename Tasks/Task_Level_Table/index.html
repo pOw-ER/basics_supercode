@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+
+    th {
+      background: grey;
+    }
+
+    th,
+    td {
+      width: 150px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--Table 1 (LEVEL1_5)-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 1-5 Table 1</caption>
+      <tr>
+        <th>Vorname</th>
+        <th>Nachname</th>
+      </tr>
+      <tr>
+        <td>Enes</td>
+        <td>Yilmaz</td>
+      </tr>
+      <tr>
+        <td>Büsra</td>
+        <td>
+          Yilmaz</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Table 2 (LEVEL1_5)-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 1-5 Table 2</caption>
+      <thead>
+        <tr>
+          <th>Head 1</th>
+          <th>Head 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Body 1</td>
+          <td>Body 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Foot 1</td>
+          <td>Foot 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <!--Table 1 Level 2-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 2 Table 1</caption>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">ID</th>
+        <th colspan="2">Membership Dates</th>
+        <th rowspan="2">Balance</th>
+      </tr>
+      <tr>
+        <th>Joined</th>
+        <th>Canceled</th>
+      </tr>
+      <tr>
+        <th>Margaret Nguyen</th>
+        <td>427311</td>
+        <td>June 3,2010</td>
+        <td>n/a</td>
+        <td>10.00</td>
+      </tr>
+      <tr>
+        <th>Margaret Nguyen</th>
+        <td>427311</td>
+        <td>June 3,2010</td>
+        <td>n/a</td>
+        <td>10.00</td>
+      </tr>
+      <tr>
+        <th>Margaret Nguyen</th>
+        <td>427311</td>
+        <td>June 3,2010</td>
+        <td>n/a</td>
+        <td>10.00</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Table 2 Level 2-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 2 Table 2</caption>
+      <tr>
+        <th>comp</th>
+        <th>num</th>
+        <th>website</th>
+        <th>address</th>
+      </tr>
+      <tr>
+        <td rowspan="2">comp1</td>
+        <td>01234567890</td>
+        <td rowspan="2">
+          <p><a href="">website1.1</a></p>
+          <p><a href="">website1.2</a></p>
+        </td>
+        <td rowspan="2">address1</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>comp2</td>
+        <td>01234567890</td>
+        <td><a href="">website2</a></td>
+        <td>address2</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Table 3 Level 2-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 2 Table 3</caption>
+      <tr>
+        <th>User:</th>
+        <td colspan="3">user 1</td>
+        <td colspan="2">user 2</td>
+      </tr>
+      <tr>
+        <th>num:</th>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Table 4 Level 2-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 2 Table 4</caption>
+      <tr>
+        <th>user</th>
+        <th>num</th>
+      </tr>
+      <tr>
+        <td rowspan="3">user1</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td rowspan="2">user2</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td rowspan="5">user 3</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Table 5 Level 2-->
+  <section style="margin-top:10px;">
+    <table>
+      <caption>Level 2 Table 5</caption>
+      <tr>
+        <th>comp:</th>
+        <td>comp1</td>
+        <td colspan="2">comp2</td>
+        <td>comp3</td>
+        <td colspan="2">comp4</td>
+      </tr>
+      <tr>
+        <th>num:</th>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td colspan="2">01234567890</td>
+      </tr>
+      <tr>
+        <th>website</th>
+        <td><a href="#">website1</a></td>
+        <td colspan="2"><a href="#">website2</a></td>
+        <td><a href="#">website3</a></td>
+        <td><a href="#">website4</a></td>
+        <td><a href="#">website5</a></td>
+      </tr>
+    </table>
+  </section>
+</body>
+
+</html>

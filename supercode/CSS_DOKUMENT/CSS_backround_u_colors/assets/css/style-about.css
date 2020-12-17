@@ -1,0 +1,35 @@
+section,article{
+  height: 100vh; /* vh : viewhigh ganze bildschirm boyunda*/
+}
+
+/* Background image */
+
+/* mit absolut path*/
+
+section {
+  background-image: url("https://images.unsplash.com/photo-1531747621445-2bbb048fabe0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHRpZXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+/* mit relative path  */
+
+article {
+  background-image: url("../img/Katze.jpg");
+  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y;  */
+  background-size: cover; /* tüm icerigi kaplar görüntü kötü olsa bile*/
+  /* background-size:auto; */
+  /* background-size:contain;  */
+  /* background-position: 100px 100px; *//* ilk x ikinci y*/
+  /* background-position: center center;  *//* x ve ynin centerina odakalnir*/
+}
+
+header {
+  height: 100vh;
+  background : url("https://source.unsplash.com/random") no-repeat center/cover;
+}

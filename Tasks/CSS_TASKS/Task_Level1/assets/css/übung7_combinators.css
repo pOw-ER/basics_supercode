@@ -1,0 +1,27 @@
+section {
+  border: 2px solid #c71585;
+}
+
+em {
+  color: #c71585;
+}
+
+h2~p {
+  background-color: #00bfff;
+}
+
+h1 {
+  background-color: #2e8b57;
+}
+
+h1~p {
+  color:#483d8b;
+}
+
+h3 {
+  background-color: #32cd32;
+}
+
+article h2{
+  background-color: #00ced1;
+}

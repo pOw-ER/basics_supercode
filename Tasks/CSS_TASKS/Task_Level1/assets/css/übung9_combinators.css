@@ -1,0 +1,11 @@
+section {
+  border: 2px solid #00bfff;
+}
+
+section>a {
+ color: #00bfff;
+}
+
+h3 a {
+  color: blau;
+}

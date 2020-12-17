@@ -1,0 +1,28 @@
+
+/* Descantent Selector (Space) */
+/* bu sekilde tanimladigimiz kesin adrsler diger li icin veya ul icin yapilanalrdan öncelikli
+tüm altindaki direkt olmayan child leri da etkiler
+*/
+section ol li {
+  background-color: green;
+}
+
+/* child selector */
+/* alle child ama direkt olanalri secip etkiliyoruz sadece  */
+section>h3 {
+  color: gold;
+  background-color: tomato;
+}
+
+
+/* Sibling Selector*/
+
+h2+h3 {
+  /* h2 nin altinda yazili h3 direkt kardeslerini secer  */
+}
+
+h2~h3{
+  /* h2 nin altinda yazili direk olan veya olmayan tüm kardeslerini secer  */
+}
+/* the shorthand declaration:
+background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip   bg-attachment initial|inherit; */

@@ -1,0 +1,15 @@
+thead th {
+  background-color: lightgreen;
+}
+
+tbody th+td {
+  background-color:gray;
+}
+
+tfoot th+td {
+  background-color:red;
+}
+
+tbody th, tbody td, tfoot th, tfoot td {
+  background-color:yellow;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/übung7_combinators.css">
+</head>
+
+<body>
+  <h1>CSS Combinators</h1>
+  <p>
+    Kombinatoren erklären die Beziehung zwischen zwei oder mehreren
+    Selektoren. Beispiele für Kombinatoren sind das Größer-als-Zeichen ">",
+    Pluszeichen "+" und Tilde-Symbol "~". Sie werden verwendet, um direkte
+    Elemente von Kindern und Geschwistern zu erfassen.
+  </p>
+  <section>
+    <p><em>Geschwister A</em> Paragraph der sich über der H2 befindet.</p>
+    <h2><em>Geschwister A</em> Allgemeiner Geschwisterkombinator</h2>
+    <p><em>Geschwister A</em> Paragraph der sich unter H2 befindet.</p>
+    <h3><em>Geschwister A</em> H3 text</h3>
+    <p>
+      <em>Geschwister A</em>Paragraph der nach dem h2-element auftritt. Aber
+      kein Adjecant(+) Sibling Selector
+    </p>
+    <article>
+      <p><em>Sibling B</em> paragraph</p>
+      <h2>
+        <em>Sibling B</em> h2 das nach dem p-Element kommt, so dass der allgemeine Geschwisterkombinator nicht umgekehrt
+        funktioniert.
+      </h2>
+
+      <p><em>Geschwister A</em> paragraph der sich unter H2 befindet.</p>
+    </article>
+  </section>
+
+</body>
+
+</html>

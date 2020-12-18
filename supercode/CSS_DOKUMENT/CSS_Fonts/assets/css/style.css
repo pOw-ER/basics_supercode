@@ -1,0 +1,36 @@
+a {
+  text-decoration:none;
+}
+
+section {
+  color: red;
+  direction:rtl; /* yazi yönü*/
+}
+
+h1 {
+  letter-spacing:5px;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-transform: uppercase;
+  word-spacing: 50px;
+
+}
+
+h4+p {
+  line-height:80px;
+  text-align:right;
+  background-color:gold;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+
+}
+
+h2+p {
+  text-indent: 40px;
+}
+
+h4 {
+  text-shadow: 4px -4px red;
+}

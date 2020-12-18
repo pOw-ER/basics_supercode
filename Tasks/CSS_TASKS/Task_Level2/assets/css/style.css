@@ -1,0 +1,16 @@
+h2 {
+  font-size: 48px;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 20px;
+  color: #333;
+}
+
+li {
+  font-size: 20px;
+  color: #777;
+  text-decoration: underline;
+}

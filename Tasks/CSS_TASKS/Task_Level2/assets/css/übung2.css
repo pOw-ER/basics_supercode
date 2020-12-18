@@ -1,0 +1,24 @@
+h1 {
+  font-size: 50px;
+  font-family: 'Bungee Outline', cursive;
+}
+
+section p {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+main p {
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+}
+
+aside p {
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+
+nav p {
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+}

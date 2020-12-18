@@ -2,11 +2,6 @@ a {
   text-decoration:none;
 }
 
-section {
-  color: red;
-  direction:rtl; /* yazi yönü*/
-}
-
 h1 {
   letter-spacing:5px;
   text-align: center;
@@ -14,7 +9,16 @@ h1 {
   text-decoration: underline;
   text-transform: uppercase;
   word-spacing: 50px;
+  font-family: Verdana, Arial, sans-serif;
+}
 
+section>h1{
+  color: red;
+  direction:rtl; /*yazi yönü*/
+}
+
+#ersteÜberschrift {
+  direction:rtl;
 }
 
 h4+p {
@@ -24,7 +28,6 @@ h4+p {
   white-space: nowrap;
   width: 200px;
   overflow: hidden;
-
 }
 
 h2+p {

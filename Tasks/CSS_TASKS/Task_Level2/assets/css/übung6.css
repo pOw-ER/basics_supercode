@@ -1,0 +1,69 @@
+h1 {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  text-shadow: 2px 2px red;
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: capitalize;
+  line-height: 30px;
+  text-align: justify;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  background-color:lightgreen;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+
+strong {
+  color: gold;
+  word-spacing: 3px;
+}
+
+em {
+  color: red;
+  word-spacing: 1px;
+}
+
+h2+p {
+  word-spacing: 10px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+main p {
+  word-spacing: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+ol {
+  font-family: 'Cinzel', serif;
+  color: crimson;
+  line-height: 40px;
+}
+
+h4 {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  background-color: yellow;
+  text-align: end;
+  word-spacing: 15px;
+
+}
+
+h5 {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+ul {
+  background-color:lightgray;
+  font-family: 'Lato', sans-serif;
+}

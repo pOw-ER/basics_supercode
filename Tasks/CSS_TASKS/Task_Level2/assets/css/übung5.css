@@ -1,0 +1,27 @@
+h1 {
+  font-size: 48px;
+  background-color: rgb(183, 175, 231);
+  color: white;
+  text-align: center;
+  font-family: Tahoma, Verdana, Geneva sans-serif;
+}
+
+p {
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+h2 {
+  word-spacing: 15px;
+  letter-spacing: 8px;
+  color:white;
+  text-shadow: 2px 2px rgb(38, 121, 121);
+}
+
+ul {
+  background-color: rgb(11, 78, 64);
+}
+
+li {
+  background-color: rgb(42, 156, 132);
+}

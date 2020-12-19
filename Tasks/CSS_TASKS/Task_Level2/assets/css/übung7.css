@@ -1,0 +1,42 @@
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Hanalei', cursive; */
+/* font-family: 'Long Cang', cursive; */
+/* font-family: 'Pacifico', cursive; */
+
+body {
+  background-color:lightgreen;
+}
+
+h1,h2 {
+  color: red;
+}
+
+h3 {
+  font-family: 'Long Cang', cursive;
+  font-size: 40px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+section h6 {
+  font-family: 'Hanalei', cursive;
+}
+
+article h6+p {
+  font-family: 'Long Cang', cursive;
+  font-size: 25px;
+}
+
+div h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+div ol {
+  font-family: 'Pacifico', cursive;
+}

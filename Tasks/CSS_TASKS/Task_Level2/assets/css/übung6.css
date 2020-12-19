@@ -54,7 +54,7 @@ h4 {
   background-color: yellow;
   text-align: end;
   word-spacing: 15px;
-
+  text-shadow: -10px 1px gray;
 }
 
 h5 {

@@ -1,0 +1,181 @@
+a:link {
+  color: tomato;
+}
+
+a:visited {
+  color:green;
+}
+
+a:hover {
+  color: purple;
+}
+
+/* active biz mausla link üzerine basili tuttugumuzda aktiflesir  */
+a:active {
+  color: gray;
+}
+
+/* div{
+  height: 40px;
+  width: 300px;
+  background:gold;
+}
+div:hover{
+  width: 600px;
+  background:tomato;
+} */
+
+/*:empty ile bos olan elementeri secip bazi kullnaimalr yapabiliriz */
+section>p:empty{
+  height: 2px;
+  width:100%;
+  background: lightblue;
+}
+
+section{
+  border:1px solid #666
+}
+/* :first-child und :first-of-type */
+section p:first-child{
+  text-decoration: underline;
+}
+section p:first-of-type{
+  font-style: italic;
+}
+
+section h3:first-of-type{
+  font-size: 40px;
+}
+
+section p:last-child{
+  background: #333;
+  color: #ffffff;
+}
+
+section h3:last-of-type {
+  background-color:tomato;
+  color: gold;
+}
+
+/*:nth-child() #:nth-of-type()*/
+article p:nth-child(7){
+  background: #000;
+  color: #ffffff;
+}
+
+/* beide yuari ve asagidaki ayni elemnti seciyor. */
+article p:nth-of-type(4){
+  font-size: 30px;
+}
+
+article p:nth-child(9){
+  background: #000;
+  color: #ffffff;
+}
+
+/*:nth-last-child() :nth-last-of-type()*/
+article p:nth-last-child(11){
+  background: tomato;
+}
+
+/* ul li:nth-child(2), ul li:nth-child(4),ul li:nth-child(6), ul li:nth-child(8){
+  background:tomato;
+} */
+
+/*even:0 2 4 6 8 10 ....*/
+/*odd: 1 3 5 7 9 11 ...*/
+
+/* ul li:nth-child(even){
+  background:tomato;
+}
+
+ul li:nth-child(odd){
+  background:gold;
+} */
+
+/* ul li:nth-child(2n){
+  background:tomato;
+}
+ul li:nth-child(2n+1){
+  background:gold;
+} */
+/*3 6 9 12 15 18*/
+/* ul li:nth-child(3n){
+  font-size: 30px;
+} */
+
+ul li:nth-child(9n+9){
+  background:tomato;
+}
+ul li:nth-child(4n+5){
+  background:gold;
+}
+ul li:nth-of-type(4n){
+  background:lightblue;
+}
+main{
+  height: 850px;
+  width: 850px;
+}
+main div{
+  height: 100px;
+  width: 100px;
+  display:inline-block
+}
+main section:nth-of-type(2n+1) div:nth-of-type(2n){
+  background: #ccc;
+}
+main section:nth-of-type(2n+1) div:nth-of-type(2n+1){
+  background: #000;
+}
+main section:nth-of-type(2n) div:nth-of-type(2n){
+  background: #000;
+}
+main section:nth-of-type(2n) div:nth-of-type(2n+1){
+  background: #ccc;
+}
+
+ol li:not(:last-of-type){
+  background: #000;
+}
+container :not(h3){
+  font-size: 40px;
+}
+footer p::first-letter{
+  font-size: 100px;
+}
+footer p::first-line{
+  font-style: italic;
+}
+
+::selection{
+  background: gold;
+  color:tomato;
+  text-decoration: underline;
+}
+footer ul li::after{
+  content:url(../img/foto1.png)
+}
+
+ul {
+  list-style: none;
+}
+
+/*pseudo class and pseudo element*/
+footer ul li:first-child::before{
+  /* content:'some text ' */
+}
+
+footer ul li{
+  position: relative;
+}
+footer ul li::before{
+  content:'';
+  height: 30px;
+  width: 30px;
+  background: #000;
+  display:block;
+  position:absolute;
+  left: -40px;
+  top: 18px;
+}

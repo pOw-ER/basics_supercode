@@ -1,0 +1,32 @@
+ul li:nth-child(3n){
+  color:#311B92;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial, sans-serif;
+}
+
+ul li:nth-child(5n){
+  background-color: #FFF176;
+}
+
+ul li:nth-child(2n){
+  text-decoration: underline;
+}
+
+ul li:nth-child(2n+1){
+  list-style: square;
+}
+
+ul li:nth-child(7n){
+  font-size: 1.6em;
+}
+
+ul li:first-child {
+  color: #E53935;
+}
+
+ul li:nth-child(4n){
+  letter-spacing : 6px;
+}
+
+ul li:nth-child(13n){
+  background-color: #FF8A80;
+}

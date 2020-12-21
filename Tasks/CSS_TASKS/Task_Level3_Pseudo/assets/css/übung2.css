@@ -1,0 +1,53 @@
+h3:hover {
+  color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li:first-child {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #4E342E;
+}
+
+ul li:nth-child(2){
+  font-family: montserrat, sans-serif;
+  color: #689F38;
+}
+
+ul li:last-of-type {
+  font-family: raleway, sans-serif;
+  color: #EF5350;
+}
+
+section p:first-child {
+  color: #999;
+}
+
+section p:not(:last-of-type){
+  font-size: 1.6em;
+}
+
+section p:nth-child(even){
+  color: #0277bd;
+}
+
+footer button:first-child {
+  background-image: linear-gradient(to left top, blue , violet);
+  display: block;
+  margin: auto;
+  padding: 20px 80px 20px 80px;
+  font-size: 20px;
+  color: white;
+  border: 3px solid rgb(60, 119, 187);
+  border-radius:4px;
+}
+
+footer button:first-child:hover {
+  font-size: 25px;
+  padding: 25px 100px 25px 100px;
+  color: black;
+}
+
+footer button:first-child:active {
+  background-image: linear-gradient(to left top, violet , yellow);
+  color: darkgray;
+}

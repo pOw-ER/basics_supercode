@@ -1,0 +1,35 @@
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p::first-letter{
+  color: #00bfff;
+  font-size: 3em;
+}
+
+p::first-line {
+  text-transform: uppercase;
+  color: gray;
+}
+
+h1,h2,h3 {
+  color: green;
+}
+h1::before {
+  content:'Hi!';
+  color: lime;
+}
+
+h2::after{
+  content: '!';
+  color: purple;
+}
+
+h3::selection{
+  color: red;
+  background-color:purple;
+}
+strong {
+  color: black;
+}

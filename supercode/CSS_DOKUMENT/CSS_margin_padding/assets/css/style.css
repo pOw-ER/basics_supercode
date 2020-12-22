@@ -1,0 +1,51 @@
+section {
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+}
+
+section div {
+  text-align: center;
+  padding-top:80px;
+}
+
+section h1 {
+  color: green;
+  margin: 0;
+  text-align: center;
+}
+
+article h1 {
+  color: purple;
+  text-align: center;
+  padding: 50px 0;
+}
+
+article {
+  width: 80%;
+  height: 250px;
+  margin: 50px auto;
+}
+article p {
+  border: 3px solid orange;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+#galeria {
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+/* #galeria img:not(:first-child) {
+  margin-left: 109px;
+
+} */
+#galeria img{
+  width: 25%;
+}
+#galeria img:nth-child(2){
+  margin:0 140px;
+}

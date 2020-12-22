@@ -5,44 +5,36 @@ caption {
 table {
   border: none;
 }
-
 th,td {
   padding: 10px;
   text-align: center;
 }
-
 table tr:first-child th:nth-child(2) {
   font-size: 2em;
   color: blue;
 }
-
 tbody tr:nth-child(even){
   background-color:#FCB941;
 }
 tbody tr:nth-child(odd){
   background-color: #F1654C;
 }
-
 tbody tr:nth-child(odd) td:first-child {
   background-color:#7E3661;
   color: #fff;
 }
-
 tbody tr:nth-child(even) td:first-child {
   color:#fff;
   background-color:#888888;
 }
-
 tbody tr:nth-child(odd) td:last-child {
   background-color:#8870FF;
   color: #fff;
 }
-
 thead tr:first-child th:last-child {
   border-right: none;
   border-top: none;
 }
-
 :root {
   background-color: lightgray;
 }

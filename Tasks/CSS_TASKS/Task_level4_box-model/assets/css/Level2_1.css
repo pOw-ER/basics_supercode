@@ -1,0 +1,59 @@
+nav ul {
+  list-style: none;
+
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 5px;
+  border: 5px double rgb(196, 15, 15);
+}
+
+p {
+  width: 60%;
+  border: 1px solid pink;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+h2 {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 5px;
+  border: 5px dashed rgb(150, 0, 117);
+}
+h3 {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 5px;
+  border: 5px dotted rgb(145, 170, 2);
+  border-radius:20px;
+
+}
+ol {
+  width: 50%;
+  margin: 40px auto;
+  color: orange;
+  border-bottom: 3px solid rgb(31, 31, 77);
+}
+
+ul:not(nav ul) {
+  width: 50%;
+  margin: 40px auto;
+  color: rgb(65, 41, 5);
+  border: 20px solid rgb(38, 172, 109);
+  border-right: none;
+  text-decoration: line-through;
+}

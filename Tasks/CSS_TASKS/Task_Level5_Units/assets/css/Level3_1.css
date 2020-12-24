@@ -1,0 +1,48 @@
+body {
+  margin:0;
+  padding: 0;
+  background: url('../img/foto1_laptop.jpg') center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-size: 10px;
+}
+
+section {
+  position: absolute;
+  margin: 30px 30px;
+  background-color: rgb(240, 157, 2, 0.4);
+  width: 95vw;
+
+}
+
+section h1 {
+  width: 90vw;
+  text-align: center;
+  margin:10px auto;
+  padding: 10px;
+  color: white;
+  font-size: 2.5rem;
+}
+
+article {
+  position: absolute;
+  height: 35vh;
+  width: 95vw;
+  margin: 250px 30px;
+  background-color: rgb(0, 255, 255, 0.4);
+}
+
+article p, article h2 {
+  text-align: center;
+  margin: 30px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+article p{
+  font-size: 1.5em;
+}
+
+article h2{
+  font-size: 2.5em;
+}

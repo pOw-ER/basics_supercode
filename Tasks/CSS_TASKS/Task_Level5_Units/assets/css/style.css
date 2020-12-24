@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 0;
+  border: 0.05cm solid black;
+  border-radius:0.5mm;
+}
+
+section h2 {
+  font-size: 15mm;
+  text-shadow: 1.5mm 1.5mm black;
+  font-family: Helvetica, Arial,  sans-serif;
+  color: white;
+  background-color:rgb(53, 53, 53);
+  margin: 0;
+  padding: 2.5mm 0;
+  text-align: center;
+
+}
+
+article {
+  border: 2mm solid black;
+  border-radius: 2mm;
+  background-color: darkgray;
+  margin: 5mm;
+  color: white;
+  padding: 5mm 15mm ;
+}
+
+article p {
+  font-size: 7mm;
+}
+
+article ul {
+  list-style: none;
+  padding: 0 ;
+}
+article ul li:nth-child(1){
+  font-size: 0.7cm;
+  color: black;
+  background-color:white;
+}
+article ul li:nth-child(2){
+  font-size: 1cm;
+}
+article ul li:nth-child(3){
+  font-size: 1.2cm;
+  color: black;
+  background-color:white;
+}
+article ul li:nth-child(1)::before{
+  content: "\2022";
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  text-shadow: 0.3mm 0.3mm black;
+
+}
+article ul li:nth-child(2)::before{
+  content: "\2022";
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  text-shadow: 0.3mm 0.3mm black;
+}
+article ul li:nth-child(3)::before{
+  content: "\2022";
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  display: inline-block;
+  width: 0.5em;
+  text-shadow: 0.3mm 0.3mm black;
+}
+
+h3 {
+  font-size: 1cm;
+}

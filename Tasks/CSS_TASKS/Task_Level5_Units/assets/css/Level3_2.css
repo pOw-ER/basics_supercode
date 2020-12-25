@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('../img/page-not-found.jpg') center/cover no-repeat;
+  color: #CDD4DE50; /*Am Ende des hexadcimal color codes können wir noch 2 number schreiben, um die Transparenz einstellen zu können. zwischen 0-100 */
+}
+
+section h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 300px 5px 0;
+  font-size: 15rem;
+  font-family: 'Roboto', sans-serif;
+  color: #d3dae450;
+}
+section h2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 5px 0;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #CDD4DE50;
+}
+section p {
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 5px 30px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #CDD4DE50;
+}
+section div {
+  text-align: center;
+  margin: 0 auto;
+  padding: 150px 5px 10px;
+}
+section div a {
+  text-align: center;
+  text-decoration: none;
+  color: #565c73;
+  padding:10px;
+  border: 1px solid #565c73;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+section div a:hover {
+  background-color:#bac5f3;
+}

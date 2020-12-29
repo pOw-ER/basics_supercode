@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  border: 1px solid black;
+  display: inline-block;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+}

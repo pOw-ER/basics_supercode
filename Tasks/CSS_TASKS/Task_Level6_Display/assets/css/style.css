@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #999;
+}
+button {
+  display: block;
+  padding: 15px 100px;
+  margin: 40px auto;
+  background-color:rgba(34, 37, 58, 0.966);
+  color: white;
+  font-size: 30px;
+}
+
+div img {
+  display: block;
+  margin: 0 auto;
+}
+div {
+  display: none;
+}
+
+button:hover+div {
+  display: block;
+}

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: NeueMachina; /* istedigimiz ismi verebliriz*/
+  src: url(../fonts/NeueMachina-Medium.woff2);
+}
+
+figure {
+  font-family: 'NeueMachina';
+}

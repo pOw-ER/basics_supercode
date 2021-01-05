@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu&display=swap');
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+  background-color: #1F2024;
+}
+nav {
+  position: fixed;
+  width: 100%;
+}
+nav span {
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  color: white;
+}
+hr {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+}
+ul li {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  top: 10px;
+}
+ul li:nth-of-type(1) {
+  right: 700px;
+}
+ul li:nth-of-type(2) {
+  right: 500px;
+}
+ul li:nth-of-type(3) {
+  right: 350px;
+}
+ul li:nth-of-type(4) {
+  right: 200px;
+}
+h1,h6, img {
+  position: absolute;
+}
+
+img {
+  width: 200px;
+  height: 600px;
+  top: 75px;
+}
+
+img:nth-of-type(1){
+  right: 0;
+}
+img:nth-of-type(2){
+  right: 250px;
+}
+img:nth-of-type(3){
+  right: 500px;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  color: white;
+  width: 350px;
+  left: 200px;
+  top: 200px;
+}
+body>span{
+  position: absolute;
+  width: 30px;
+  border-bottom: 1px solid #BB8357;
+  top: 415px;
+  left: 200px;
+}
+h6 {
+  font-size: 15px;
+  color: #BB8357;
+  top: 370px;
+  left: 240px;
+}
+
+i {
+  position: absolute;
+  color: gray;
+  width: 20px;
+}
+
+i:nth-of-type(1){
+  bottom: 50px;
+  left: 50px;
+}
+
+i:nth-of-type(2){
+  bottom: 50px;
+  left: 100px;
+}
+i:nth-of-type(3){
+  bottom: 50px;
+  left: 150px;
+}

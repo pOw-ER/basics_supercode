@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+
+#about,#services2{
+    background: tomato;
+    height: 80vh;  
+    padding: 10vh 8%;
+}
+#contact{
+    background: lightblue;
+    height: 80vh;  
+    padding: 10vh 8%;
+}
+.headline{
+    font-size: 3em;
+}
+h1{
+    margin: 0;
+}
+section#hero{
+    padding: 10vh 8%;
+}
+
+/* .tomato{
+    color:tomato
+} */
+.gold{
+    color:gold;
+}
+.paragraph{
+    font-size: 4em;
+    color:#fff;
+}
+h2.headline2.bold.tomato{
+    font-size: 3em;
+    font-weight: 900;
+    color:tomato;
+}
+
+section#hero{
+    background:lightgreen;
+}
+
+#hero,#services1{
+    background: gold;
+    height: 80vh;  
+    
+}
+
+h3{
+    font-size: 4em;
+}
+.test{
+    font-size: 2em;
+}
+h3.test{
+    font-size: 4em;
+}
+section#hero h3.test{
+    text-decoration:underline;
+}
+#hero h3.test{
+    text-decoration: none;
+}
+section h3.test{
+    text-decoration: underline;
+}
+/* section#hero>div>ul>li:first-child{
+
+}
+#hero #container .myList{
+
+} */
+/*0210*/
+#hero #container .myList{
+    color:gold
+} 
+/*0114*/
+section#hero>div>ul>li:first-child{
+    color:tomato
+}   
+
+/*0024*/
+section div.container ul li:first-child{
+    color:#000;
+    font-size: 2em;
+}
+
+/*0014*/
+section>div>ul>li:first-child{
+    color:#fff;
+    font-size: 4em;
+}
+
+
+

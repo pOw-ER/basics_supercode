@@ -1,0 +1,36 @@
+form {
+  width: 30%;
+  margin: 100px auto;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.semiblock {
+  width: 48.2%;
+}
+
+span {
+  color: red;
+}
+label {
+  padding: 10px 0;
+}
+
+input {
+  padding: 5px 0;
+  outline-color: rgb(2, 161, 167,.6);
+}
+
+input[type="button"] {
+  margin-top: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(2, 161, 167,.6);
+}
+
+input[type="button"]:hover {
+  background-color: rgb(31, 31, 75);
+}

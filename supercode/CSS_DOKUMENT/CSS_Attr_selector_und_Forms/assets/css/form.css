@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+h1 {
+  color: rgb(38, 119, 185);
+  text-align: center;
+  margin-top: 100px;
+}
+form {
+  width: 30%;
+  margin: 10px auto;
+}
+input {
+  width: 100%;
+  border: none;
+  padding: 20px 0px;
+  border-bottom: 1px solid #33333340;
+}
+
+input[id="fname"]{
+  width: 44%;
+
+}
+input[id="lname"]{
+  width: 44%;
+  margin-left: 42px;
+}
+
+input[type="button"]{
+  background-color:rgb(38, 119, 185);
+  color: white;
+  width: 50%;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 100px;
+}

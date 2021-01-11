@@ -1,0 +1,9 @@
+form {
+  width: 500px;
+  margin: 100px auto;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}

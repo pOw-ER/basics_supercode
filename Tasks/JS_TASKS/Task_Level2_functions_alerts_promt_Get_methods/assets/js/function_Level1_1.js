@@ -8,7 +8,7 @@ intro()
 // Level 1_2
 
 function intro2 (paramName){
-  let varName = "SuperCoder"
+  var varName = "SuperCoder"
   console.log("Hi, "+ varName + ". Mein Name ist " + paramName + " .");
 }
 intro2("Enes")

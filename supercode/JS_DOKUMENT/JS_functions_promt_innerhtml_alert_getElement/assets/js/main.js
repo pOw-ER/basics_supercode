@@ -138,3 +138,23 @@ function inchNachCm(inch) {
     console.log(inch * 2.54)
 }
 inchNachCm(10)
+
+
+console.log(document.getElementById("points").value);
+
+function getValueName() {
+  console.log(document.getElementById("first-name").value);
+}
+
+function getValueSelect() {
+  console.log(document.getElementById("cars").value);
+}
+
+function getUserInfo() {
+  console.log(document.getElementById("fname").value);
+  console.log(document.getElementById("lname").value);
+  console.log(document.getElementById("email").value);
+  console.log(document.getElementById("gender").value);
+}
+
+document.getElementById('box').style.backgroundColor = 'red';

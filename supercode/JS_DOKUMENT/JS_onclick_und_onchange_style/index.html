@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <h1 id="headline">Hello world!</h1>
+  <form action="">
+    <input type="text" name="" id="first-name" value="hi" onchange="getFirstName()">
+    <label for="points">Points (between 0 and 100):</label>
+    <input type="range" id="points" name="points" min="0" max="100" value="45" onchange="getValueRange()">
+    <select name="moods" id="moods" onchange="getValueMoods()">
+      <option value="morning">Morning</option>
+      <option value="evening" selected>Evening</option>
+      <option value="nolife">No-Life</option>
+    </select>
+    <input type="button" value="click me" onclick="sayWhat()">
+
+  </form>
+  <form action="">
+    <input type="text" id='first'>
+    <input type="text" id="last">
+    <input type="email" name="" id="email">
+    <select name="gender" id="gender">
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="other">Other</option>
+    </select>
+    <input type="button" value="submit form" onclick="showForm()">
+  </form>
+  <button onclick="sayWhat()">Click</button>
+  <div onclick="changeBackground()" id="box"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

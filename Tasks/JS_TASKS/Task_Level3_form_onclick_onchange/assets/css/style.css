@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(28, 28, 56);
+}
+
+section {
+  width: 60%;
+  margin: 100px auto;
+  background-color: gray;
+  text-align: center;
+}

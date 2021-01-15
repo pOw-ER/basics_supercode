@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Open+Sans&family=Roboto&family=Yusei+Magic&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <h2>Fonts Generator</h2>
+    <form action="">
+      <input type="range" id="size" name="size" min="8" max="100" value="32" step="4" onChange="changeFontSize()">
+      <label for="size">Font-size</label>
+      <select name="fonts" id="fonts" onChange="changeFontSize()">
+        <option value="'Bodoni Moda', serif">'Bodoni Moda', serif</option>
+        <option value="'Open Sans', sans-serif">'Open Sans', sans-serif</option>
+        <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
+        <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
+      </select>
+      <input type="text" name="" id="text" placeholder="type something" onChange="changeFontSize()">
+    </form>
+    <h1 id="headline">Test</h1>
+  </section>
+
+
+  <script src="../js/Level3_1.js"></script>
+</body>
+
+</html>

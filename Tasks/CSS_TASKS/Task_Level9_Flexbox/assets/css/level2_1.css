@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+img {
+  padding-top: 15px;
+  /* flex-grow: 1; */
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+#main-content {
+  padding: 150px 100px 200px;
+  background: url('http://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg') center/cover no-repeat fixed;
+  text-align: center;
+}
+
+.logo {
+  color: #666;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding-right: 50px;
+}
+nav ul li a {
+  color: #333;
+  font-size: 13px;
+}
+nav ul li a:hover {
+  color: #337ab7;
+}
+
+.nav-wrapper {
+  position: sticky;
+  top: 0;
+  padding: 13px 100px;
+  border-bottom: 1px solid #00000020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-content h1 {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 60px;
+  padding: 100px 0 20px;
+  font-weight: 400;
+}
+#main-content p {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+#main-content a:nth-of-type(1) {
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  padding: 20px 50px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid #fff;
+  transition: all .7s;
+}
+#main-content a:nth-of-type(1):hover {
+  color: #000;
+  background-color: #fff;
+}
+#main-content a:nth-of-type(2) {
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  padding: 20px 70px;
+  background-color: #745cf9;
+  font-weight: bold;
+  border: 2px solid #745cf9;
+  transition: all .7s;
+}
+#main-content a:nth-of-type(2):hover {
+  color: #fff;
+  background-color: #5234f9;
+  border: 2px solid #5234f9;
+}

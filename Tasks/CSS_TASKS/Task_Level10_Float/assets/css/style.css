@@ -1,0 +1,49 @@
+body>div {
+  margin-bottom: 50px;
+}
+
+.box {
+  height:100px;
+}
+
+.box1 {
+  background-color: blue;
+  float: left;
+}
+.box2 {
+  background-color: red;
+  float: right;
+}
+.box3 {
+  background-color: green;
+  clear: both;
+}
+.div2box1 {
+  background-color: blue;
+  float: right;
+  clear: both;
+}
+.div2box2 {
+  background-color: red;
+  float: right;
+  clear: both;
+}
+.div2box3 {
+  background-color: green;
+  clear: both;
+}
+.div3box1 {
+  background-color: blue;
+  float: right;
+  clear: both;
+}
+.div3box2 {
+  background-color: red;
+  float: right;
+  clear: both;
+}
+.div3box3 {
+  background-color: green;
+  float: right;
+  clear: both;
+}

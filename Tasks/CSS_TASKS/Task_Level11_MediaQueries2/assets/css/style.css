@@ -333,4 +333,7 @@ footer p {
   #sign-button {
     width: 20%;
   }
+  body {
+    padding:0 100px;
+  }
 }

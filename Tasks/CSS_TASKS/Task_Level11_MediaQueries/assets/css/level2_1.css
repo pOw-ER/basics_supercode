@@ -10,16 +10,17 @@ header article {
   background-color: #fff;
 }
 header article h3 {
-  margin-bottom: 20px 0 150px 20px;
+  margin: 40px 0 150px 40px;
 }
 header article h1 {
   font-size: 30px;
   margin: 200px 0 30px 40px;
 }
 header article p {
-  margin-bottom: 200px;
+  margin-bottom: 31%;
   margin-left: 40px;
   width: 50%;
+  line-height: 21px;
 }
 header section{
   width: 50%;
@@ -111,6 +112,9 @@ footer article ul li a {
     width: 100%;
     height: 100vh;
     background: url('../img/104_2_dieter_rams_the_jf_chen_collection_july_2018_artur_braun_and_fritz_eichler_sk_25_radio__wright_auction.jpg') center/cover no-repeat;
+  }
+  header section h2 {
+    text-align: center;
   }
 
   footer article ul li {

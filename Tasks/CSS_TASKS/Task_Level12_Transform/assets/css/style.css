@@ -1,0 +1,81 @@
+#lev1 {
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+  border-radius: 10px;
+  transition: all 1s linear;
+}
+
+#lev1:hover {
+  transform: translateX(100px) translateY(100px) rotate(90deg) scale(2);
+}
+
+#lev1_2 {
+  display:flex;
+  flex-wrap: wrap;
+}
+#lev1_2 div {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 10px;
+  margin: 20px;
+  transition: all 1s linear;
+}
+
+#translate:hover {
+  transform: translate(20px,20px);
+}
+#translateX:hover {
+  transform: translateX(20px);
+}
+#translateY:hover {
+  transform: translateY(20px);
+}
+#rotate:hover {
+  transform: rotate(90deg);
+}
+#scale:hover {
+  transform: scale(2);
+}
+#skew:hover {
+  transform: skew(20deg,20deg);
+}
+article {
+  border: 2px solid #000;
+
+}
+article div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s ease-in-out;
+}
+article div:hover {
+  width: 100%;
+}
+
+section.box {
+  position: relative;
+  display: block;
+}
+section.box div {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: left 1s linear;
+}
+section.box div:nth-of-type(2){
+  background-color: green;
+  top: 140px;
+  transition: left 3s linear;
+}
+
+section.box:hover div{
+  left: 90%;
+}
+

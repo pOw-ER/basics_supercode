@@ -1,0 +1,30 @@
+section {
+  position: relative;
+}
+.big {
+  position: absolute;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  text-align: center;
+  transition: all 1s linear;
+}
+.big:active {
+  left: 115px;
+}
+.small {
+  position: absolute;
+  background-color: blue;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  top: 125px;
+  left: 300px;
+  transition: all 1s ease-out;
+  transition-delay: 1s;
+}
+
+.big:hover+.small{
+  left: 1200px;
+}

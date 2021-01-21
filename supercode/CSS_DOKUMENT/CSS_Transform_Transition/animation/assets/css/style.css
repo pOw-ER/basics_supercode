@@ -1,0 +1,99 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border-radius: 50%;
+}
+
+div:nth-of-type(1){
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
+
+/* @keyframes changeColor {
+    from { background-color: orange}
+    to { background-color:lightgreen}
+} */
+
+@keyframes changeColor {
+    0%,100% { 
+        background-color:orange
+    }
+    25% {
+        background-color:violet;
+    }
+    50% {
+        background-color: blue;
+    }
+}
+
+div:nth-of-type(2) {
+    animation: colorMove 3s ease-in infinite reverse;
+    
+}
+
+@keyframes colorMove {
+    0%,100% {
+        background-color: orange;
+        transform: translateX(50px);
+    }
+    25% {
+        background-color: violet;
+        transform: translateX(100px);
+    }
+    50% {
+        background-color: blue;
+        transform: translateX(150px);
+    }
+}
+
+h2 {
+    display: inline-block;
+    padding: 5px;
+    background-color: lightblue;
+    animation-name: jumpUp;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes jumpUp {
+    0%,100%{
+        transform: translateY(20px)
+    }
+    25% {
+        transform: translateY(10px) scale(1.5);
+        opacity: 0.2;
+    }
+    50% {
+        transform: translateY(5px)
+    }
+}
+
+ img{ 
+     width:200px;
+     animation-name: trainMove;
+     animation-duration: 3s;
+     animation-timing-function:ease;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes trainMove {
+     0% {
+        transform: translateX(0px);
+     }
+     50% {
+         transform: translateX(300px);
+     }
+     52% {
+         transform: translateX(300px) rotateY(180deg);
+     }
+     100% {
+        transform: translateX(0px) rotateY(180deg);
+     }
+ }

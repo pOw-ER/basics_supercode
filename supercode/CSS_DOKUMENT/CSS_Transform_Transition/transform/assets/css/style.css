@@ -1,0 +1,56 @@
+body {
+    background-color: grey;
+    margin:0;
+    padding-top: 300px;
+}
+
+div {
+    border: 1px solid #000;
+    background-color: gold;
+    display: inline-block;
+    text-align: center;
+    width:200px;
+    height: 200px;
+   
+}
+
+div:nth-of-type(1){
+    transform: translate(200px, 50px); /* x-Achse, y-Achse*/
+    transform: translateX(200px);
+    transform:translateY(-50px);
+}
+
+div:nth-of-type(2){
+transform: rotate(45deg); /* Einheit deg*/
+transform: rotate(90deg); 
+transform: rotate(180deg); 
+transform: rotate(360deg); 
+transform: rotateX(180deg); /*3d Transform: rotiert/flip in der x-Achse */
+transform: rotateY(180deg);
+transform: rotateZ(180deg);
+}
+
+div:nth-of-type(3){
+transform:scale(2);
+transform:scale(1.1,2);
+transform: scaleX(2);
+transform: scaleY(3);
+}
+
+div:nth-of-type(4){
+    transform: skew(10deg,20deg); /* Einheit deg */
+    transform: skewX(15deg);
+    transform: skewY(15deg);
+}
+
+div:nth-of-type(5){
+    /* transition: transform 1s linear;  */
+    transition-property: transform;
+    transition-duration:1s;
+    transition-timing-function: linear;
+}
+
+
+div:nth-of-type(5):hover{
+    transform: translate(200px,300px) rotate(45deg) scale(1.5) skew(30deg);
+}

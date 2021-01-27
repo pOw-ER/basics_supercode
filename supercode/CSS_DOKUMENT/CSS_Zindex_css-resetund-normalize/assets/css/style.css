@@ -1,0 +1,64 @@
+/* article{
+  height: 80vh;
+  position: relative;
+}
+div{
+  height: 100px;
+  width: 200px;
+  background:tomato;
+  position:absolute;
+  display: grid;
+  place-items:center;
+}
+div:nth-child(1){
+  top: 50px;
+  left: 150px;
+  z-index:1;
+}
+div:nth-child(2){
+  background:gold;
+  z-index:0;
+}
+div:nth-child(3){
+  background:lightblue;
+  top: 100px;
+  left: 300px;
+}
+div:hover{
+  z-index:4
+} */
+main{
+  padding: 100px 8%;
+  background-color: rgb(93, 62, 222);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0px, rgba(255, 255, 255, 0.25) 1px, transparent 1px, transparent 100%), linear-gradient(rgba(255, 255, 255, 0.25) 0px, rgba(255, 255, 255, 0.25) 1px, transparent 1px, transparent 100%);
+  background-position: 0px 0px, 0px 0px;
+  background-size: calc(8.33333vw) calc(8.33333vw);
+}
+main div {
+  position: relative;
+
+}
+main div img {
+  position: absolute;
+  left: 60%;
+  z-index: -1;
+  opacity: 0;
+}
+main div:nth-of-type(2) img {
+  top: -50px;
+}
+main div:nth-of-type(3) img {
+  top: -150px;
+}
+main div:nth-of-type(4) img {
+  top: -200px;
+}
+main div h2:hover{
+  text-decoration: line-through;
+  transition: all .8s;
+}
+main div h2:hover+img {
+  opacity: 1;
+  z-index: 1;
+  transition: all .8s;
+}

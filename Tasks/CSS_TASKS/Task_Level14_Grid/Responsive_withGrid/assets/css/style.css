@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+main {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+/* RESPONSIVE MIT GRID UND OHNE MEDIA QUERIES ABER NICHT EMPFEHLENSWERT*/
+/* main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+} */
+div {
+  height: 200px;
+  background-color: red;
+}
+div:nth-of-type(2) {
+  background-color: green;
+}
+div:nth-of-type(3) {
+  background-color: blue;
+}
+div:nth-of-type(4) {
+  background-color: purple;
+}
+
+@media (max-width: 768px){
+  main {
+    grid-template-columns: 2fr 2fr;
+  }
+}
+@media (max-width: 500px){
+  main {
+    grid-template-columns: 1fr;
+  }
+}

@@ -4,3 +4,13 @@
 	font-family: $f-fam;
 	padding: $p;
 }
+
+@mixin li-style ($p,$list-s) {
+  padding: $p;
+  list-style: $list-s;
+}
+@mixin a-style ($td, $cl, $font-f){
+  text-decoration: $td;
+      color: $cl;
+      font-family: $font-f;
+}

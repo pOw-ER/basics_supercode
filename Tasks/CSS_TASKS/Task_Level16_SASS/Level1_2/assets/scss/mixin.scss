@@ -1,0 +1,6 @@
+@mixin header-style ($h,$t-al,$f-fam,$p){
+  height: $h;
+	text-align: $t-al;
+	font-family: $f-fam;
+	padding: $p;
+}

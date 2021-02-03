@@ -1,0 +1,20 @@
+@mixin balls ($w,$h,$br,$bgc){
+  width: $w;
+  height: $h;
+  border-radius: $br;
+  background-color: $bgc;
+}
+
+@mixin keyframe ($moveBall) {
+  @keyframes moveBall {
+      @content;
+  }
+}
+
+@mixin animation-style ($delay, $duration, $animation, $animation-it-ct: infinite,$animation-t-fnc) {
+  animation-delay: $delay;
+  animation-duration: $duration;
+  animation-name: $animation;
+  animation-iteration-count: $animation-it-ct;
+  animation-timing-function: $animation-t-fnc;
+}

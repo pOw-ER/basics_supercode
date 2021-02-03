@@ -1,0 +1,20 @@
+@import "./mixin.scss";
+
+
+.ball1 {
+  @include balls (100px,100px,50%,red);
+  @include animation-style(0s,2s,moveBall,infinite,linear);
+}
+.ball2 {
+  @include balls (100px,100px,50%,blue);
+  @include animation-style(1s,1s,moveBall,infinite,ease-out);
+}
+.ball3 {
+  @include balls (100px,100px,50%,yellow);
+  @include animation-style(0.5s,2s,moveBall,infinite,ease);
+}
+
+@include keyframe (moveBall){
+  0%,100% {transform: translateX(0)}
+  50% {transform: translateX(1000px)}
+}

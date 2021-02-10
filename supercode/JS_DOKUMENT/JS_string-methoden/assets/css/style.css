@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 35%;
+  text-align: center;
+}
+#skala {
+  width: 500px;
+}

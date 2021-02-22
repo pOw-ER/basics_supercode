@@ -20,13 +20,30 @@ imageArray2();
 
 let loop = document.getElementById('loop');
 let number = document.getElementById('number')
-loop.style.color = "green"
+
 loop.style.fontSize = "32px"
 
 let loopMe = () => {
   let arrayLoop = ["L", "p"]
-  for (let i = 0; i < number.value; i++) {
-    arrayLoop.splice(1, 0, "o")
+  if (number.value == 0 || number.value == "") {
+    loop.style.color = "red"
+    loop.innerHTML = "ERROR"
+  } else if (number.value % 2 == 0) {
+    loop.style.color = "green"
+    for (let i = 0; i < number.value; i++) {
+      arrayLoop.splice(1, 0, "o")
+    }
+    loop.innerHTML = arrayLoop.join("")
+  } else {
+    loop.style.color = "green"
+    for (let i = 0; i < number.value; i++) {
+      if (i % 2 == 0) {
+        arrayLoop.splice(1, 0, "o")
+      } else {
+        arrayLoop.splice(1, 0, "0")
+      }
+    }
+    loop.innerHTML = arrayLoop.join("")
   }
-  loop.innerHTML = arrayLoop.join("")
+
 }

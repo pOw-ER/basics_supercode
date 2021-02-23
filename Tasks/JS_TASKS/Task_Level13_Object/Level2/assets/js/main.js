@@ -108,7 +108,4 @@ const singers = [
 ];
 
 
-singers.sort((a, b) => {
-  if (a.name)
- })
 console.log(singers.sort((a, b) => { a < b }));

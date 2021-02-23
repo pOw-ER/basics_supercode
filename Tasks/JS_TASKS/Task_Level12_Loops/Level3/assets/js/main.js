@@ -55,3 +55,25 @@ let count = () => {
     ergebnis.innerHTML = nummer1;
   }
 }
+
+// let product = {
+//   productName: 'IphoneX',
+//   productPrice: '1300',
+//   productYear: 2019,
+//   productDescription() {
+//     console.log(`The ${this.productName} cost ${this.productPrice}$ and was produced ${this.productYear}`);
+//   }
+// }
+// product.productDescription()
+
+// let grade = {
+//   math: 10,
+//   sport: 4,
+//   english: 8,
+//   js: 11,
+//   css: 2
+// }
+
+// for (let key in grade) {
+//   console.log(key, grade[key]);
+// }

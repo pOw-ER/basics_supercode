@@ -108,4 +108,11 @@ const singers = [
 ];
 
 
-console.log(singers.sort((a, b) => { a < b }));
+console.log(singers.sort(function (a, b) {
+  return a - b
+}))
+
+
+
+
+

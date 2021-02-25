@@ -40,7 +40,6 @@ let select = document.getElementById('farbeAuswahlen')
 
 button.addEventListener('click', (e) => {
   let farbe = select.value.toLowerCase().split(" ").toString().replace(",", "")
-  console.log(farbe);
   document.body.style.background = `${farbe}`
   e.preventDefault();
 })

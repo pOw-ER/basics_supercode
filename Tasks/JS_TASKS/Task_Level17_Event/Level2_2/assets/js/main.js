@@ -9,3 +9,5 @@ document.body.addEventListener('keypress', (e) => {
   code.innerHTML = `${e.code}`
   zeiger.innerHTML = `${e.keyCode}`
 })
+
+

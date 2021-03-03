@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #34485e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+div {
+  align-self: center;
+  text-align: center;
+}
+span {
+  color: #20a992;
+  font-size: 20px;
+}
+p {
+  color: #fff;
+  font-size: 80px;
+  margin: 0;
+  margin-bottom: 20px;
+}

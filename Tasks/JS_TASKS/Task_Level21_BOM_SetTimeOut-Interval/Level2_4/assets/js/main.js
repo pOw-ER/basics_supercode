@@ -3,6 +3,7 @@ let hours = document.getElementById('hours')
 let seconds = document.getElementById('seconds')
 let minutes = document.getElementById('minutes')
 let set;
+
 let restOfBirthday = (year, month, day) => {
   let calculate = () => {
     let date = new Date();
